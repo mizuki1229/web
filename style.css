@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: linear-gradient(135deg, #1e1e2f, #2b2b45);
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 50px;
+}
+
+.sub {
+  opacity: 0.7;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.card {
+  background: #5865F2;
+  padding: 25px 50px;
+  border-radius: 15px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  background: #4752c4;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 15px 30px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.invite {
+  background: #57F287;
+  color: black;
+}
+
+.back {
+  background: #888;
+  color: white;
+}
+
+.desc {
+  margin-top: 20px;
+}
